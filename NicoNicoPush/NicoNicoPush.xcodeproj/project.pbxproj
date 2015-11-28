@@ -14,6 +14,8 @@
 		9815C3AA1C095D5800B47893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9815C3A81C095D5800B47893 /* LaunchScreen.storyboard */; };
 		9815C3B51C095D5900B47893 /* NicoNicoPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815C3B41C095D5900B47893 /* NicoNicoPushTests.swift */; };
 		9815C3C01C095D5900B47893 /* NicoNicoPushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815C3BF1C095D5900B47893 /* NicoNicoPushUITests.swift */; };
+		9815C3D71C098AC700B47893 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815C3D51C098AC700B47893 /* TableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		9815C3D81C098AC700B47893 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9815C3D61C098AC700B47893 /* TableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9815C3BB1C095D5900B47893 /* NicoNicoPushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicoNicoPushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9815C3BF1C095D5900B47893 /* NicoNicoPushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicoNicoPushUITests.swift; sourceTree = "<group>"; };
 		9815C3C11C095D5900B47893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9815C3D51C098AC700B47893 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9815C3D61C098AC700B47893 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +104,11 @@
 				9815C39F1C095D5800B47893 /* AppDelegate.swift */,
 				9815C3A11C095D5800B47893 /* ViewController.swift */,
 				9815C3A31C095D5800B47893 /* Main.storyboard */,
+				9815C3D51C098AC700B47893 /* TableViewCell.swift */,
+				9815C3D61C098AC700B47893 /* TableViewCell.xib */,
 				9815C3A61C095D5800B47893 /* Assets.xcassets */,
 				9815C3A81C095D5800B47893 /* LaunchScreen.storyboard */,
 				9815C3AB1C095D5800B47893 /* Info.plist */,
-				9815C3CE1C095E3800B47893 /* Images */,
 			);
 			path = NicoNicoPush;
 			sourceTree = "<group>";
@@ -124,14 +129,6 @@
 				9815C3C11C095D5900B47893 /* Info.plist */,
 			);
 			path = NicoNicoPushUITests;
-			sourceTree = "<group>";
-		};
-		9815C3CE1C095E3800B47893 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Images;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9815C3AA1C095D5800B47893 /* LaunchScreen.storyboard in Resources */,
+				9815C3D81C098AC700B47893 /* TableViewCell.xib in Resources */,
 				9815C3A71C095D5800B47893 /* Assets.xcassets in Resources */,
 				9815C3A51C095D5800B47893 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9815C3D71C098AC700B47893 /* TableViewCell.swift in Sources */,
 				9815C3A21C095D5800B47893 /* ViewController.swift in Sources */,
 				9815C3A01C095D5800B47893 /* AppDelegate.swift in Sources */,
 			);
